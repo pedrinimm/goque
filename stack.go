@@ -7,8 +7,8 @@ import (
 	"os"
 	"sync"
 
-	"github.com/syndtr/goleveldb/leveldb"
-	"github.com/syndtr/goleveldb/leveldb/util"
+	"github.com/go-leveldb/goleveldb/leveldb"
+	"github.com/go-leveldb/goleveldb/leveldb/util"
 )
 
 // Stack is a standard LIFO (last in, first out) stack.
